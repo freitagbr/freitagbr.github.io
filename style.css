@@ -1,0 +1,60 @@
+* {
+  font-family: "Menlo", monospace;
+  font-size: 1em;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: normal;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin-top: .5em;
+}
+
+ol li {
+  list-style: decimal inside;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #274cd0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+}
+
+a {
+  color: #274cd0;
+}
