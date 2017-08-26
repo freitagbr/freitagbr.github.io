@@ -1,23 +1,15 @@
 * {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   border: 0;
   margin: 0;
   padding: 0;
   list-style: none;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-p {
+h1, h2, h3, h4, h5, h6, ul, ol, p {
   margin-top: .5em;
 }
 
@@ -25,20 +17,11 @@ ol li {
   list-style: decimal inside;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #274cd0;
+h1, h2, h3, h4, h5, h6 {
+  color: #e35252;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
@@ -51,10 +34,37 @@ h2 {
 }
 
 body {
-  width: 100%;
+  width: 40%;
   margin: auto;
 }
 
 a {
-  color: #274cd0;
+  color: #e35252;
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0 20px 0;
+  width: 100%;
+}
+
+li {
+  border: 0;
+  margin: 20px 0 20px 0;
+  width: 100%;
+}
+
+.light, .bold {
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
 }
